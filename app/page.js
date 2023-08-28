@@ -1,10 +1,10 @@
-import Image from 'next/image'
-import Navbar from '@/components/Navbar'
+import Navbar from "@/components/Navbar"
+import styles from "../app/styles/Navbar.module.css"
+import Link from "next/link"
 
-export default function Home() {
-  return (
-    <>
-      <Navbar></Navbar>
-    </>
-  )
+export default function Base () {
+return (
+    <h1>HOme</h1>
+)
 }
+

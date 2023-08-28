@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+x
+.li {
+    color: aquamarine;
+}
+
+.ul {
+    display: flex;
+    gap: 48px;
+    background-color: white;
+    color: green;
+}
+
+.mamba {
+    color: azure;
+}
+
+.title {
+    font-size: 48px;
+}
