@@ -1,6 +1,5 @@
 import styles from "../app/styles/Navbar.module.css"
 import Link from "next/link"
-import getData from "./GetData"
 export default function Navbar () {
 return (
     <nav className={styles.nav}>
