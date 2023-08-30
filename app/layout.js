@@ -7,10 +7,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({ children }) {
   return (
-      <div>
-      <Navbar/>
-      <main>{children}</main>
-    </div>
+    <html lang="en">
+      <body>
+        <Navbar/>
+        {children}
+      </body>
+    </html>
   )
 }
 
